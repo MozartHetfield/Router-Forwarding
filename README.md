@@ -1,4 +1,4 @@
-Dependencies:
+# Dependencies:
 
 echo "# Router-forwarding" >> README.md
 git init
@@ -7,7 +7,7 @@ git commit -m "first commit"
 git remote add origin https://github.com/MozartHetfield/Router-forwarding.git
 git push -u origin master
                 
-How to run:
+# How to run:
 
 fuser -k 6653/tcp
 python3 topo.py
